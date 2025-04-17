@@ -8,5 +8,5 @@ function somaArray(array) {
     console.log(soma) 
 };
 
-let meuArray = [30, 50, 70, 200]
-console.log(somaArray(meuArray))
+const MEU_ARRAY = [30, 50, 70, 200]
+console.log(somaArray(MEU_ARRAY))

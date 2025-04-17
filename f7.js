@@ -8,5 +8,5 @@ function nomes(nome, sobrenome) {
 
     
 }
-const eu = nomes ("Luco", "Vilanculos")
-console.log(eu)
+const EU = nomes ("Luco", "Vilanculos")
+console.log(EU)

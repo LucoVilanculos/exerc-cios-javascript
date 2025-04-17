@@ -10,7 +10,7 @@ function maiordeIdade(maior) {
      
     
 };
-const pessoas = [
+const PESSOAS = [
     {name: "Luco",
       age: 24  
     },
@@ -19,4 +19,4 @@ const pessoas = [
         age: 20
     }
 ]
-console.log(maiordeIdade(pessoas))
+console.log(maiordeIdade(PESSOAS))

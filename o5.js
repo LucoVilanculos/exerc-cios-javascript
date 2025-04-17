@@ -4,4 +4,4 @@ const LISTAS = {
     c: "Dulce"
 }
 
-console.log(Object.keys(LISTAS))
+console.log(Object.values(LISTAS))

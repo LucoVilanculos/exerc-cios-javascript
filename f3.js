@@ -1,4 +1,4 @@
-const contar = function (maiorString) {
+const CONTAR = function (maiorString) {
     return maiorString.reduce(function (maior, atual) {
         if (atual.length > maior.length) {
             return atual;
@@ -10,6 +10,6 @@ const contar = function (maiorString) {
     
 };
 
-const nomes = ["Alberto", "João", "Isaura", "Júlia"]
-const nomeMaior = contar(nomes)
-console.log(nomeMaior)
+const NOMES = ["Alberto", "João", "Isaura", "Júlia"]
+const NOME_MAIOR = CONTAR(nomes)
+console.log(NOME_MAIOR)

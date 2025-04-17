@@ -1,6 +1,11 @@
-const aluno = {
+const ALUNO = {
     nome: "Kátia",
-    notas: [17, 14, 20, 16] 
-}
-const media = (aluno.notas[0] + aluno.notas[1] + aluno[2] + aluno.notas[3]) / 3;
-console.log(media)
+    notas: [17, 14, 20, 16],
+    media: function() {
+        const soma = this.notas.reduce((acc, nota) => acc + nota, 0);
+        return soma / this.notas.length;
+        
+    }
+};
+
+console.log(ALUNO.nome, ALUNO.media())
