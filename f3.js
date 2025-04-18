@@ -11,5 +11,5 @@ const CONTAR = function (maiorString) {
 };
 
 const NOMES = ["Alberto", "João", "Isaura", "Júlia"]
-const NOME_MAIOR = CONTAR(nomes)
+const NOME_MAIOR = CONTAR(NOMES)
 console.log(NOME_MAIOR)
